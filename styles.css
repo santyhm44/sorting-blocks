@@ -25,7 +25,6 @@ body {
     max-width: 960px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 20px;
     margin: 20px;
 }
 
@@ -72,13 +71,13 @@ body {
         line-height: 60px;
         font-size: 40px;
     }
-
-    .block-panel {
-        grid-gap: 10px;
-    }
 }
 
 @media (max-width: 375px) {
+    .block-panel {
+        grid-gap: 10px;
+    }
+    
     .block {
         border-left: 10px solid #333333;
         background-color: #EFEFEF;
