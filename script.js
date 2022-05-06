@@ -37,6 +37,5 @@ const shuffleBlocks = () => {
  * @desc Function to sort the array
  */
 const sortBlocks = () => {
-  debugger;
   addBlocks(sortedArray);
 }
